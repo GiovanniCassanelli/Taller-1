@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page "Testimonios"</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="">Inicio</a>
+        <a href="">Productos</a>
+        <a href="">Servicios</a>
+        <a href="">Blog</a>
+    </nav>
+    <section class="seccion">
+       
+        <div class="formulario">
+            <h1>Comentarios</H1>
+            <h3>Autor</h3>
+            <input type="text" minlength="3" maxlength="200" id="autor" onkeypress="return limitaAutor(3);" placeholder="Indique el nombre del autor">
+            <span id="span-autor">&nbsp</span>
+            <h3>Comentario</h3>
+            <input type="text" minlength="3" maxlength="200" id="comentario" onkeypress="return limitaComentario(3)" placeholder="Escriba el comentario">
+            <span id="span-comentario">&nbsp</span>
+            <button id="btn-enviar">Agregar</button>
+        </div>
+        <div class="panel-comentarios">
+            <div class="comentario">
+                <h4 name="aut"></h4>
+                <h6 name="fecha"></h6>
+                <h5 name="com"></h5>
+            </div>
+            <div class="comentario">
+                <h4 name="aut"></h4>
+                <h6 name="fecha"></h>
+                <h5 name="com"></h5>
+            </div>
+            <div class="comentario">
+                <h4 name="aut"></h4>
+                <h6 name="fecha"></h6>
+                <h5 name="com"></h5>
+            </div>
+            <div class="comentario">
+                <h4 name="aut"></h4>
+                <h6 name="fecha"></h6>
+                <h5 name="com"></h5>
+            </div>
+        </div>
+    </section>
+   <footer>
+       
+       <a href="" class="fot">Contactanos</a>
+       <a href="">Sucursales</a>
+       <a href="">Sobre nosotros</a>
+
+   </footer>
+    <script src="js/codigo.js"></script>
+</body>
+</html>
